@@ -1,0 +1,10 @@
+<div>
+    Your Podcasts:
+    <ul>
+        $forall podcast <- thePods  
+            <a href=@{PodcastR "Bob"}> <li> #{podcast}
+    <a href=@{PodcastR}>Go to podcast!
+    <p>
+        Options
+        
+    

@@ -12,3 +12,12 @@
 /comments CommentR POST
 
 /profile ProfileR GET
+
+/podcasts PodcastsR GET
+
+/podcast/#{String} PodcastR GET
+
+/greet GreetR GET
+
+
+

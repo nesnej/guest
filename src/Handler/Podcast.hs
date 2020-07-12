@@ -2,12 +2,11 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
+{-# LANGUAGE TypeFamilies #-}
 module Handler.Podcast where
 
 import Import
 
-getPodcastR :: Handler Html
-getPodcastR = defaultLayout $ do
-    let randomName = "Big Baller Shot Caller Josh" :: String
-    let podcasts = ['a', 'b'..'z'] :: [Char]
-    $(widgetFile "podcasts")
+getPodcastR :: String -> Handler Html
+getPodcastR name = defaultLayout $ do
+    $(widgetFile "podcast")

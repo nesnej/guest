@@ -6,5 +6,8 @@
         <li> edit description
         <li> edit name
         <li> delete podcast
+    <ul>
+    $forall podcast <- allPodcasts 
+        <li> #{podcastName $ entityVal podcast}
     
         

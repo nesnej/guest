@@ -1,10 +1,11 @@
 <div>
     <h1>
         My Podcast
-    Options
-    <ul>
-        <li> edit description
-        <li> edit name
-        <li> delete podcast
+    <div class="card">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.L4bOSaO70M_jRdhJxiSObgHaFR%26pid%3DApi&f=1" alt="BuffGuy" style="width:25%" height="200">
+        <div class="container">
+            <h4><b>The Workout Podcast
+            <p> If you want legs like mine you better watch the podcast
+
     
         

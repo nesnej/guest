@@ -13,7 +13,7 @@
 
 /profile ProfileR GET
 
-/podcasts PodcastsR GET
+/podcasts PodcastsR GET 
 
 /podcast/#{String} PodcastR GET
 

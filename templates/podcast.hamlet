@@ -7,5 +7,13 @@
             <h4><b>The Workout Podcast
             <p> If you want legs like mine you better watch the podcast
 
+    Options
+    <ul>
+        <li> edit description
+        <li> edit name
+        <li> delete podcast
+    <ul>
+    $forall podcast <- allPodcasts 
+        <li> #{podcastName $ entityVal podcast}
     
         

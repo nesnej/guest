@@ -18,4 +18,8 @@ Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived
     deriving Show
 Podcast json
     name Text
+<<<<<<< HEAD
     author Text
+=======
+    author  Text
+>>>>>>> 94c8e43395da8701917f9be49e253ab105dbae2d
